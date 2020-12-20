@@ -1,0 +1,234 @@
+body{
+    background-color: white;
+  
+}
+.info {
+    background-color:black ;
+    height:25px;
+    width: 1020px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10 px;
+    margin: auto;
+text-align: center;
+border-radius: 08px;
+border-style: groove;
+   
+}
+.info :hover{
+    color: rgb(209, 193, 193);
+}
+nav a {
+    text-decoration: none;
+font-size: 20px;
+  color: aqua;
+    padding-left: 20px;
+    padding-right:20px;
+   
+  
+}
+div { 
+   background-color:black;
+   height: 400px;
+   width: 1020px;
+   margin: auto;
+  
+
+}
+section{
+    background-color:black;
+    /*background-color: #f5e9e9;*/
+    height: 125px;
+    width: 1020px;
+ margin: auto;
+ text-align: center;
+color:aqua;
+padding-top: 3px;
+border-style: groove;
+border-radius: 08px;
+  
+}
+.product{
+    background-color:black;
+    height: 300px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
+    padding-top: 15px;
+   margin: auto;
+   justify-content: center;
+   grid-gap: 10px;
+border-style: groove;
+border-radius: 08px;
+}
+.paragraph:hover{
+  
+    color: rgb(209, 193, 193);
+    cursor: pointer;
+}
+
+.h{
+    text-align: center;
+}
+.Items{
+    display: flex;
+    justify-content: center;
+  padding-bottom: 10PX;
+  padding-top: 10px;
+ margin: auto;
+justify-content: space-around;
+border-style: groove;
+border-radius: 08px;
+}
+.article{
+    border-style: groove;
+    border-radius:08px ;
+color:aqua;
+
+}
+.text{
+  padding-left: 10px;
+}
+.price{
+  padding-left: 10px;
+}
+
+.price:hover{
+  color: bisque;
+  cursor: pointer;
+}
+article{
+  color: aqua;
+}
+
+.audio-container{
+  background-image: linear-gradient(black,pink,black);
+    height: 350px;
+border-color: cornsilk;
+border-radius: 08px;
+text-align: center;
+border-style: groove;
+}
+.screen{
+  width: 300px;
+  height: 115px;
+ 
+  background: linear-gradient(aqua,black);
+ 
+}
+.screen-img{
+ 
+  width: 290px;
+  height: 100px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+ animation: shake ;
+}
+#myProgress {
+  width: 280px;
+  height: 5px;
+  background-color: grey;
+  border-radius: 5px;
+  transition: width 0.1 linear;
+  position: absolute;
+  top: 50px;
+  left: 10px;
+  right: 10px;
+}
+
+#myBar {
+  width: 2px;
+  height: 5px;
+  background-color:aqua;
+  transition: width 0.1s linear;
+ 
+}
+.audio-icons{
+ display: flex;
+ justify-content: space-around;
+  list-style: none;
+padding-left: 5px;
+padding-right: 5px;
+}
+.audio-icons li:hover{
+  color: brown;
+  transition: all 0.20s;
+  cursor: pointer;
+  
+}
+.audio-h5{
+  
+  font-size: 15px;
+  color: cyan;
+
+}
+.media{
+  background-color:black ;
+  width: 400px;
+  height: 160px;
+padding-top: 2px;
+  margin: auto;
+  border-radius: 50px;
+border-width: 2px;
+position: relative;
+border-style: groove;
+
+
+}
+h1{
+margin: auto;
+
+}
+.audio-title{
+color: turquoise;
+font-style: unset;
+  font-size: 20px;
+  margin: auto;
+ padding-top: 5px;
+ padding-bottom: 10px;
+}
+.playbtn {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+.pausebtn{
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+.nextbtn{
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+.prevbtn{
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+   .footer {
+    background-color: black;
+    height:60px;
+    width: 1020px;
+    margin: auto;
+    border-radius: 08px;
+   text-align: center;
+ padding-top: 15px;
+border-style: groove;
+
+
+   }
+ .footer li a{
+   color: aqua;
+   list-style: none;
+   text-decoration: none;
+   text-indent: 10px;
+   margin: 10px 6px 6px 6px ;
+  
+padding-right: 12px;
+ }
+ .footer-p{color: aqua;
+    font: 20px;
+ }
+ 
